@@ -1,0 +1,95 @@
+.xmzs-head {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.xmzs-head img,
+.case .row img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%
+}
+
+.xmzs-head button {
+  position: absolute;
+  top: 50%;
+  left: 19%
+}
+
+.xmzs-info .container,
+.case .container {
+  padding: 60px 0;
+}
+
+.xmzs-info .row {
+  color: #333;
+}
+
+.xmzs-info .row .pic-user {
+  width: 80px;
+}
+
+.xmzs-info .row .pic-info {
+  text-align: end;
+}
+
+.xmzs-info .row .pic-info img {
+  width: 75%;
+}
+
+.xmzs-info .row h3 {
+  color: #276991;
+  font-weight: 800;
+}
+
+.case {
+  color: #333;
+  background-color: #f7f9ff;
+}
+
+.case .container h2 {
+  text-align: center;
+}
+
+.case .row>div {
+  padding: 0 30px;
+}
+
+@media screen and (max-width:1439px) {
+  .xmzs-info .row .pic-user {
+    width: 70px;
+  }
+
+}
+
+@media screen and (max-width:1209px) {
+  .xmzs-info .row .pic-user {
+    width: 60px;
+  }
+}
+
+.xmzs-head img {
+  object-fit: fill;
+  width: 100%;
+}
+
+@media screen and (max-width:767px) {
+  .xmzs-head {
+    height: 200px;
+  }
+
+  .xmzs-info .row .pic-info {
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .case .row {
+    text-align: center;
+  }
+
+  .case .row img {
+    width: 80%;
+  }
+}

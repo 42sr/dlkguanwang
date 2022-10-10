@@ -1,0 +1,200 @@
+.aboutus,
+.about,
+.honor,
+.recruit {
+  color: #333;
+}
+
+.about .container,
+.honor,
+.recruit .container {
+  padding: 60px 0;
+}
+
+.aboutus .container h2,
+.about .container h2,
+.honor h2,
+.recruit .container h2 {
+  text-align: center;
+}
+
+.aboutus-head,
+.honor .pic {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus-head img,
+.about img,
+.honor .pic img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%
+}
+
+.aboutus-head .introduction {
+  position: absolute;
+}
+
+.aboutus-head .introduction h2 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.about,
+.recruit {
+  background-color: #f9fafc;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.about .container>p {
+  text-indent: 2em;
+
+  white-space: normal;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.about .row {
+  margin-top: 30px;
+}
+
+.about .row h4 {
+  text-align: start;
+  font-weight: 700;
+}
+
+.about .row p {
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.honor {
+  background-color: #f4f5f7;
+}
+
+.honor h2 {
+  height: 60px;
+  line-height: 60px;
+  margin: 0;
+}
+
+.honor .container {
+  overflow: hidden;
+}
+
+.honor .swiper {
+  position: relative;
+}
+
+.honor .swiper .slide-wrap {
+  padding: 20px;
+  text-align: center;
+}
+
+.honor .swiper .slide-wrap img {
+  object-fit: contain;
+  width: 85%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: auto;
+  height: auto;
+}
+
+.swiper-button-prev {
+  left: -18px;
+}
+
+.swiper-button-next {
+  right: -18px;
+}
+
+.swiper-button-prev:after {
+  content: '\e91f';
+
+}
+
+.swiper-button-next:after {
+  content: '\e920';
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-family: icomoon;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 50px;
+  color: #a8a8a8;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+
+.recruit .panel-heading h3 {
+  font-size: 28px;
+  margin: 15px 0;
+}
+
+.recruit .panel-heading h4 {
+  font-size: 24px;
+  text-align: start;
+}
+
+.recruit .panel-body {
+  font-size: 21px;
+  line-height: 38px;
+}
+
+@media screen and (max-width:1439px) {
+  .about .row p {
+    font-size: 18px;
+    line-height: 35px;
+  }
+
+  .recruit .panel-heading h3 {
+    font-size: 26px;
+    margin: 15px 0;
+  }
+
+  .recruit .panel-heading h4 {
+    font-size: 22px;
+    text-align: start;
+  }
+
+  .recruit .panel-body {
+    font-size: 20px;
+    line-height: 38px;
+  }
+}
+
+@media screen and (max-width:1209px) {}
+
+@media screen and (max-width:767px) {
+  .about .container>p {
+    padding: 0 20px;
+  }
+
+  .about .row p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .about img {
+    width: 80%;
+  }
+
+  .about .row div:last-child {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width:500px) {}

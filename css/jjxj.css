@@ -1,0 +1,277 @@
+.pain-points .container,
+.advan .container,
+.process .container,
+.case .container {
+  padding: 60px 0;
+}
+
+.pain-points .container h2,
+.advan .container h2,
+.process .container h2,
+.case .container h2 {
+  text-align: center;
+}
+
+.jjxj-head {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jjxj-head img,
+.advan img,
+.process img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%
+}
+
+.jjxj-head .introduction {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  width: 35%;
+  /* height: 170px; */
+  left: 5%;
+}
+
+.jjxj-head .introduction .buttons .btn {
+  background-color: #f59a23;
+  margin-right: 50px;
+}
+
+.jjxj-head .introduction .buttons .download {
+  position: relative;
+}
+
+.jjxj-head .introduction .buttons .download .qr {
+  display: none;
+  /* display: block; */
+  position: absolute;
+  top: 0;
+  left: 110%;
+  color: #333;
+  background-color: #fff;
+  padding: 10px;
+  z-index: 10;
+  box-shadow: 5px 5px 6px rgba(168, 168, 168, .6);
+}
+
+.jjxj-head .introduction .buttons .download:hover .qr {
+  display: block;
+}
+
+.jjxj-head .introduction .buttons ul {
+  width: 400px;
+}
+
+.jjxj-head .introduction .buttons ul li {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+.jjxj-head .introduction h2 {
+  color: #165dff;
+  font-weight: 600;
+}
+
+.pain-points,
+.process {
+  color: #333;
+}
+
+.advan,
+.case {
+  color: #333;
+  background-color: #f7f9ff;
+}
+
+.advan .container p {
+  text-align: left;
+}
+
+.process .container {
+  text-align: center;
+}
+
+.pain-points .row {
+  margin: 40px 0;
+}
+
+.pain-points .row>div {
+  padding: 0 30px;
+}
+
+.pain-points .row img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%
+}
+
+.pain-points .row .pic {
+  position: relative;
+}
+
+.pain-points .row .content {
+  position: absolute;
+  top: 55%;
+  left: 0;
+  right: 0;
+  padding: 0 10px;
+}
+
+.pain-points .row h4 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.pain-points .row p {
+  line-height: 30px;
+}
+
+.advan .row {
+  margin-top: 40px;
+}
+
+.advan .row>div {
+  text-align: center;
+  padding: 0 40px;
+  margin-bottom: 20px;
+}
+
+.advan .row img {
+  /* width: 200px; */
+  object-fit: contain;
+  width: 50%;
+  /* height: 100% */
+}
+
+.advan .row .advan-content {
+  height: 300px;
+}
+
+.advan .row h4 {
+  font-weight: 600;
+}
+
+.advan .row p {
+  line-height: 35px;
+}
+
+.process .container {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.case {
+  color: #333;
+  background-color: #f7f9ff;
+}
+
+.case .row {
+  margin: 40px 0;
+}
+
+.case .row>div {
+  padding: 0 30px;
+}
+
+.case .row img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%
+}
+
+.case .row h4 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width:1439px) {
+  .pain-points .row>div {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width:1209px) {
+  .pain-points .row>div {
+    padding: 0 15px;
+  }
+
+  .pain-points .row p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .jjxj-head {
+    height: 200px;
+  }
+
+  .jjxj-head img {
+    object-fit: fill;
+    width: 100%;
+  }
+
+  .pain-points .row>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .pain-points .row .pic {
+    text-align: center;
+  }
+
+  .pain-points .row p {
+    text-align: start;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .pain-points .row .pic {
+    object-fit: contain;
+    width: 80%;
+    height: 100%
+  }
+
+  .advan .row .advan-content {
+    height: 150px;
+  }
+
+  .advan .row p {
+    line-height: 24px;
+  }
+
+  .advan .row img {
+    width: 40%;
+  }
+
+  .case {
+    text-align: center;
+  }
+
+  .case .row img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .jjxj-head .introduction h2 {
+    font-size: 14px;
+  }
+
+  .jjxj-head .introduction .btn:first-child {
+    margin-bottom: 10px;
+  }
+
+  .jjxj-head .introduction .buttons ul {
+    width: 200px;
+  }
+}

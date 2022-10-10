@@ -1,0 +1,152 @@
+h3 {
+  text-align: center;
+}
+
+.bim-head {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bim-head img,
+.project-idea .container img,
+.bim-service .container img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%
+}
+
+.project-idea,
+.project-idea,
+.project-exp,
+.bim-service,
+.promise,
+.client {
+  color: #333;
+}
+
+.project-exp,
+.promise {
+  background-color: #f7f9ff;
+}
+
+.project-idea .container,
+.project-exp .container,
+.bim-service .container,
+.promise .container,
+.client .container {
+  padding: 60px 0;
+}
+
+.project-idea .container h2,
+.project-exp .container h2,
+.bim-service .container h2,
+.promise .container h2,
+.client .container h2 {
+  text-align: center;
+}
+
+.project-idea .container div {
+  text-align: center;
+  height: 500px;
+}
+
+.project-exp .container .row>div,
+.bim-service .container .row>div {
+  padding: 0 30px;
+}
+
+.project-exp .container .pic,
+.bim-service .container .pic {
+  text-align: center;
+}
+
+.project-exp .container p {
+  line-height: 50px;
+}
+
+.promise p {
+  padding: 0 30px;
+}
+
+/* .client .container>.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 40px 0;
+} */
+
+.client .container img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.client .container ul li {
+  float: left;
+  width: 20%;
+  height: 80px;
+  padding: 0 15px;
+}
+
+.client .container ul li:nth-child(5n) {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:991px) {
+  .project-exp .container p {
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .project-idea .container p {
+    padding: 0 20px;
+  }
+
+  .project-idea .container div {
+    text-align: center;
+    height: 250px;
+  }
+
+  .project-exp .container p {
+    line-height: 30px;
+  }
+
+  .bim-service .container img {
+    width: 80%;
+  }
+
+  .client .container ul {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .client .container ul li {
+    float: left;
+    width: 50%;
+    height: 40px;
+    padding: 0 15px;
+  }
+
+  .client .container ul img {
+    width: auto;
+  }
+
+  .client .container ul li:nth-child(5n) {
+    margin-bottom: 0;
+  }
+
+  .client .container ul li:nth-child(2n) {
+    margin-bottom: 20px;
+  }
+
+  /* .client .container ul li {
+    width: 33.33%;
+    height: 50px;
+  }
+
+  .client .container ul li:nth-child(4) {
+    width: 50%;
+  } */
+}

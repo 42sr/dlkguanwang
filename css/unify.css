@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 45px;
+  margin-bottom: 60px;
+}
+
+p {
+  font-size: 22px;
+  margin-bottom: 30px;
+  line-height: 60px;
+}
+
+.btn {
+  color: #fff;
+  font-size: 22px;
+  background-color: #165DFF;
+  border: none;
+}
+
+h3 {
+  font-size: 35px;
+  margin: 15px 0 30px 0;
+}
+
+h4 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 15px 0 20px;
+}
+
+.contact .contact-info {
+  position: absolute;
+  top: 20%
+}
+
+.contact .phone {
+  position: absolute;
+  top: 68%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact .phone i {
+  font-size: 30px;
+  color: #333;
+}
+
+.contact .phone p {
+  font-size: 30px;
+  margin: 0;
+}
+
+@media screen and (max-width:1439px) {
+  h2 {
+    font-size: 35px;
+    margin-bottom: 45px;
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 40px;
+  }
+
+  .btn {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 23px;
+  }
+
+  .contact .phone i {
+    font-size: 25px;
+  }
+
+  .contact .phone p {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:1209px) {
+  h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 30px;
+  }
+
+  .btn {
+    font-size: 17px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .contact .phone i {
+    font-size: 22px;
+  }
+
+  .contact .phone p {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  h2 {
+    font-size: 27px;
+    margin-bottom: 28px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 26px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 23px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .contact .phone i {
+    font-size: 22px;
+  }
+
+  .contact .phone p {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  h2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 24px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 2px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+
+}
+
+@media screen and (max-width:500px) {
+  h3 {
+    font-size: 15px;
+  }
+
+  .contact .contact-info {
+    top: 10%
+  }
+
+  .contact .phone {
+    top: 64%;
+  }
+
+  .contact .phone i {
+    font-size: 14px;
+  }
+
+  .contact .phone p {
+    font-size: 14px;
+  }
+}

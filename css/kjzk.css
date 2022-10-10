@@ -1,0 +1,283 @@
+.challenge,
+.summarize,
+.framework,
+.contact {
+  color: #333;
+}
+
+.challenge .container,
+.summarize .container,
+.framework .container {
+  padding: 60px 0;
+}
+
+.challenge .container h2,
+.summarize .container h2,
+.framework .container h2 {
+  text-align: center;
+}
+
+.kjzk-head,
+.contact {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kjzk-head img,
+.challenge img,
+.summarize img,
+.contact img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%
+}
+
+.kjzk-head .introduction {
+  position: absolute;
+  /* height: 140px; */
+  top: 50%-70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kjzk-head .introduction h2 {
+  font-weight: 700;
+}
+
+.kjzk-head .introduction p {
+  text-align: center;
+}
+
+.challenge {
+  background-color: #f9fafc;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.challenge .row {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.challenge .row img {
+  width: 100px;
+}
+
+.challenge .challenge-content {
+  height: 320px;
+  padding-top: 15px;
+  background-color: #fff;
+}
+
+.challenge .challenge-content h4 {
+  text-align: center;
+}
+
+.challenge .challenge-content p {
+  text-align: start;
+  padding: 0 10px;
+  line-height: 35px;
+}
+
+.summarize {
+  text-align: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.summarize .container p {
+  text-indent: 2em;
+  text-align: start;
+  padding: 0 30px;
+
+  white-space: normal;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.summarize img {
+  width: 720px;
+}
+
+.framework {
+  text-align: center;
+}
+
+.framework img {
+  width: 740px;
+  margin-top: 40px;
+}
+
+
+
+@media screen and (max-width:1439px) {
+  .challenge .challenge-content {
+    height: 300px;
+  }
+
+  .challenge .challenge-content p {
+    line-height: 40px;
+  }
+
+  .summarize .container p {
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width:1209px) {
+  .challenge .challenge-content {
+    height: 250px;
+  }
+
+  .challenge .challenge-content p {
+    line-height: 30px;
+  }
+
+  .summarize .container p {
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .kjzc-head {
+    height: 200px;
+  }
+
+  .kjzc-head img {
+    object-fit: fill;
+    width: 100%;
+  }
+
+  .challenge .row>div {
+    margin-bottom: 30px;
+    padding: 0 30px;
+  }
+
+  .challenge .challenge-content {
+    height: 200px;
+  }
+
+  .summarize .container p {
+    line-height: 24px;
+    margin-bottom: 15px;
+  }
+
+  .summarize img,
+  .framework img {
+    width: 80%;
+  }
+}
+
+
+/* {
+  h2 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  .kjzk-head .introduction {
+    height: 120px;
+  }
+
+  .kjzk-head .introduction h1 {
+    font-size: 28px;
+  }
+
+  .kjzk-head .introduction p {
+    font-size: 16px;
+  }
+
+  .challenge .row>div {
+    padding: 0 90px;
+    margin-bottom: 30px;
+  }
+
+  .summarize .container p {
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  .summarize img,
+  .framework img {
+    width: 490px;
+  }
+
+  .contact .contact-info {
+    top: 20%;
+  }
+
+  .contact .contact-info h3 {
+    font-size: 20px;
+  }
+
+  .contact .phone {
+    top: 65%;
+  }
+
+  .contact .phone p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  h2 {
+    font-size: 15px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+
+  .kjzk-head .introduction {
+    height: 90px;
+  }
+
+  .kjzk-head .introduction h1 {
+    font-size: 22px;
+  }
+
+  .kjzk-head .introduction p {
+    font-size: 12px;
+  }
+
+  .challenge .row>div {
+    padding: 0 60px;
+    margin-bottom: 30px;
+  }
+
+  .challenge .row .case-content p {
+    font-size: 12px;
+  }
+
+  .summarize .container p {
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .summarize img,
+  .framework img {
+    width: 340px;
+  }
+
+  .contact .contact-info {
+    top: 10%;
+  }
+
+  .contact .contact-info h3 {
+    font-size: 16px;
+  }
+
+  .contact .phone {
+    top: 65%;
+  }
+
+  .contact .phone i,
+  .contact .phone p {
+    font-size: 12px;
+  }
+} */

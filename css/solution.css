@@ -1,0 +1,225 @@
+.challenge,
+.framework,
+.bim-apply,
+.case,
+.contact {
+  color: #333;
+}
+
+.framework .container,
+.bim-apply .container,
+.case .container {
+  padding: 60px 0;
+}
+
+.framework .container h2,
+.bim-apply .container h2,
+.case .container h2 {
+  text-align: center;
+}
+
+.solution-head,
+.contact {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.solution-head img,
+.framework img,
+.contact img,
+.bim-apply img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%
+}
+
+.solution-head .introduction {
+  position: absolute;
+}
+
+.solution-head .introduction h2 {
+  text-align: center;
+  line-height: 70px;
+  font-weight: 700;
+}
+
+.framework {
+  text-align: center;
+}
+
+.bim-apply {
+  background-color: #f9fafc;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.bim-apply .row>div {
+  padding: 0 20px;
+}
+
+.bim-apply .bim-apply-content {
+  height: 230px;
+  padding-top: 15px;
+  background-color: #fff;
+}
+
+.bim-apply .bim-apply-content h4 {
+  text-align: center;
+}
+
+.bim-apply .bim-apply-content p {
+  text-align: start;
+  padding: 0 10px;
+  line-height: 35px;
+}
+
+.case .row li {
+  float: left;
+}
+
+.case .row .pic {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.case .row img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%
+}
+
+.case .row p {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  margin: 0;
+
+  color: #fff;
+  background-color: rgba(30, 30, 30, .5);
+}
+
+.case .row1 li {
+  width: 50%;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.case .row2>div {
+  padding: 0;
+}
+
+.case .row2 li {
+  padding: 10px;
+}
+
+.case .row2 ul .two {
+  width: 50%;
+}
+
+.case .row2 ul .one {
+  width: 100%;
+}
+
+.case .row3 {
+  padding: 10px;
+}
+
+@media screen and (max-width:1439px) {
+  .bim-apply .bim-apply-content p {
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width:1209px) {
+  .bim-apply .bim-apply-content p {
+    line-height: 30px;
+  }
+}
+
+
+
+@media screen and (max-width:767px) {
+  .solution-head .introduction h2 {
+    line-height: 30px;
+  }
+
+  .bim-apply .bim-apply-content {
+    height: 200px
+  }
+
+  .bim-apply .bim-apply-content p {
+    line-height: 24px;
+  }
+
+  .contact .contact-info {
+    top: 20%;
+  }
+
+  .contact .contact-info h3 {
+    font-size: 20px;
+  }
+
+  .contact .phone {
+    top: 65%;
+  }
+
+  .contact .phone p {
+    font-size: 16px;
+  }
+
+  .framework img {
+    width: 500px;
+  }
+
+  .bim-apply .row>div {
+    padding: 0 90px;
+    margin-bottom: 30px;
+  }
+
+  .case .container {
+    padding: 60px 50px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .solution-head .introduction h2 {
+    line-height: 30px;
+  }
+
+  .bim-apply .row>div {
+    padding: 0 60px;
+    margin-bottom: 15px;
+  }
+
+  .case p {
+    font-size: 12px;
+  }
+
+  .contact .contact-info {
+    top: 10%;
+  }
+
+  .contact .contact-info h3 {
+    font-size: 16px;
+  }
+
+  .contact .phone {
+    top: 65%;
+  }
+
+  .contact .phone i,
+  .contact .phone p {
+    font-size: 12px;
+  }
+
+  .framework img {
+    width: 350px;
+  }
+}
